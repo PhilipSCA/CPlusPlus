@@ -2,7 +2,6 @@
 #include <vector>
 #include "Colours.h"
 #include <string>
-#include <algorithm>
 
 std::vector<std::vector<std::string>> products = {
 	{"Doughnut","1.99"},
@@ -37,6 +36,7 @@ void addToOrder(std::string item) {
 
 	std::cout << clrgreen << item << white << " added to order!\n";
 	std::cout << clrred << "\n========================\nOrder Total: " << clrgreen << "$" << total << clrred << "\n========================\n" << white;
+	return;
 }
 
 
@@ -47,7 +47,7 @@ int main() {
 	int choice;
 	float total = 0;
 
-	std::cout << blue << "Welcome to Philip's store!\n" << white << "What would you like to purchase?\n";
+	std::cout << blue << "Welcome to the store!\n" << white << "What would you like to purchase?\n";
 	while (keepConverting) {
 
 		std::cout << clrred << "========================\nMENU\n" << white << "\n";
@@ -58,7 +58,7 @@ int main() {
 
 		std::cout << "Enter the ID number of what you would like to buy.\n";
 		std::cin >> choice;
-		while (std::cin.fail() || choice > (int)products.size() || choice < 0) {
+		while (std::cin.fail() || choice > (int)products.size() || choice <= 0) {
 			std::cout << clrred << "Input Error! Must be an integer and on the menu.\n" << white;
 			std::cin.clear();
 			std::cin.ignore(256, '\n');
