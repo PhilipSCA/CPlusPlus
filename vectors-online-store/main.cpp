@@ -13,7 +13,7 @@ std::vector<std::vector<std::string>> products = {
 	{"Ketchup","2.40"}
 };
 
-//std::string products[6][2]{ {"Doughnut","1.99"}, {"Sugar","1.50"}, {"Milk","1.29"}, {"Butter","1.00"}, {"Chocolate","4.00"}, {"Ketchup","2.40"} };
+
 std::vector<float> orderPrices;
 std::vector<std::string> orderItems;
 
