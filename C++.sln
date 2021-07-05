@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unit Converter", "Unit Converter\Unit Converter.vcxproj", "{57057C86-D8C6-48FC-A07F-7A103AF7F071}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FAE6C6E-09BC-4237-B31A-C8119BEE9FCD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vectors-online-store", "vectors-online-store\vectors-online-store.vcxproj", "{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +28,14 @@ Global
 		{57057C86-D8C6-48FC-A07F-7A103AF7F071}.Release|x64.Build.0 = Release|x64
 		{57057C86-D8C6-48FC-A07F-7A103AF7F071}.Release|x86.ActiveCfg = Release|Win32
 		{57057C86-D8C6-48FC-A07F-7A103AF7F071}.Release|x86.Build.0 = Release|Win32
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Debug|x64.ActiveCfg = Debug|x64
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Debug|x64.Build.0 = Debug|x64
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Debug|x86.ActiveCfg = Debug|Win32
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Debug|x86.Build.0 = Debug|Win32
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Release|x64.ActiveCfg = Release|x64
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Release|x64.Build.0 = Release|x64
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Release|x86.ActiveCfg = Release|Win32
+		{D68162F5-F2A2-49A0-B77A-D0C6A0F83E13}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
