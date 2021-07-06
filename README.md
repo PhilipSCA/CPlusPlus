@@ -1,5 +1,6 @@
 # C++
+A repository of my recent C++ projects. Learning to code proficiently in C++.
 
 ## Projects
-- [UnitConverter](unit-converter/README.md)
-- 
+- [Unit Converter](unit-converter/README.md)
+- [Online Store](vectors-online-store/README.md)
