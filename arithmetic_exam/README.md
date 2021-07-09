@@ -77,7 +77,7 @@ std::cout << result;
 ```
 
 ### Calculating Average
-``cpp
+```cpp
 //Average initially as a float, round it after. Although there are 10 questions now it will always be a whole number, but if totalQuestions is changed it won't be.
 float average = (correctAnswers / static_cast<float>(totalQuestions)) * 100; //Casting totalQuestions to float
 std::cout << "\nTotal Average: " << round(average) << "%\n"; //Rounding average to nearest 1, in case of decimal
