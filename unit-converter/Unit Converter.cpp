@@ -1,7 +1,7 @@
 // Unit Converter.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
-#include "Colours.h"
+#include "../Colours.h"
 
 int main()
 {

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d68162f5-f2a2-49a0-b77a-d0c6a0f83e13}</ProjectGuid>
-    <RootNamespace>vectorsonlinestore</RootNamespace>
+    <ProjectGuid>{6af9f823-11f2-4744-bfde-4a7340cc9dc0}</ProjectGuid>
+    <RootNamespace>creditcardvalidator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="credit-card-validator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
